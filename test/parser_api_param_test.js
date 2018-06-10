@@ -75,7 +75,7 @@ describe('Parser: apiParam', function() {
         {
             title: 'All options, without optional-marker, without default value quotes',
             content: ' ( MyGroup ) { \\Object\\String.uni-code_char[] { 1..10 } = \'abc\', \'def\' }  ' +
-                     '\\MyClass\\field.user_first-name = John_Doe Some description.',
+            '\\MyClass\\field.user_first-name = John_Doe Some description.',
             expected: {
                 group: 'MyGroup',
                 type: '\\Object\\String.uni-code_char[]',
